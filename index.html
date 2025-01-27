@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathya Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./s.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+</head>
+<body class="light-mode"> <!-- Set default mode -->
+
+    <!--Welcome message-->
+
+     <!-- Welcome Screen -->
+     <div id="welcome-screen">
+        <h1 class="welcome-message">Welcome</h1>
+    </div>
+
+    <!-- Your main website content (initially hidden) -->
+    <div id="main-content" style="display: none;">
+        <h1>My Portfolio</h1>
+        <!-- Add your portfolio sections here -->
+    </div>
+    
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="mailto:sathya.tvr.tech@gmail.com">sathya.tvr.tech@gmail.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- Dark/Light Mode Toggle Button -->
+               
+            </div>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section id="home" class="vh-100 d-flex align-items-center text-center bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column: Text -->
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="display-4">Hi, I'm Sathya A</h1>
+                    <p class="lead">A Java Developer & Aspiring Data Analyst</p>
+                    <p>"First, solve the problem. Then, write the code."</p>
+                    <a href="Sathya Anni Resume.pdf.pdf" class="btn btn-primary mt-3">DOWNLOAD RESUME</a>
+                </div>
+    
+                <!-- Right Column: Image -->
+                <div class="col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
+                    <img src="sathya-removebg-preview.png" alt="Mohamed Asick" class="profile-image img-fluid" style="max-width: 80%; height: auto; border-radius: 0;">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+
+    <!-- About & Education Section -->
+    <section id="about-education" class="py-5">
+        <div class="container" style="color: black;">
+            <div class="row">
+                <!-- About Me Card -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body" id="about">
+                            <h2 style="color: white;">About Me</h2>
+                            <p>As an enthusiastic and dedicated entry-level software engineer, I am passionate about creating scalable, efficient solutions that solve real-world problems. With a strong foundation in Java, Python, and machine learning, I bring hands-on experience in developing robust applications, including web-based platforms and image recognition systems. I have a background in microservices architecture, RESTful APIs, and cloud computing, with additional skills in databases like MongoDB and PostgreSQL.</p>
+
+                            <p>Through internships and self-driven projects, I’ve built applications demonstrating my commitment to quality code, user-focused design, and adaptability in team settings. With certifications in cloud architecture and data analytics, I am eager to leverage my technical and analytical abilities to contribute meaningfully to innovative software solutions. I am excited to grow in a collaborative environment where I can continue learning and developing impactful software.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Education Details -->
+                <div class="col-lg-6">
+                    <!-- Full outer box for the education section -->
+                    <div class="education-container bg-light p-4 rounded">
+                        <h2>My Educational Details</h2>
+                
+                        <!-- Sub-box for Current Degree -->
+                        <div class="education-subbox">
+                            <strong>Current Degree:</strong>
+                            <p>Pursuing B.E. in Computer Science and Engineering at Kings College of Engineering, CGPA: 7.80</p>
+                        </div>
+                
+                        <!-- Sub-box for 12th Grade -->
+                        <div class="education-subbox">
+                            <strong>12th Grade:</strong>
+                            <p>Scored 84% at Mother India Higher Secondary School, Koradacherry</p>
+                        </div>
+                
+                        <!-- Sub-box for 10th Grade -->
+                        <div class="education-subbox">
+                            <strong>10th Grade:</strong>
+                            <p>Scored 82% at United Matriculation School, Koradacherry</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+   
+    <!-- Projects Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container" style="color: black;">
+            <h2 class="text-center" style="color: white;">My Skills</h2>
+            <div class="row text-center justify-content-center">
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="jaavaeee.jpg" alt="Java" class="skill-image img-fluid">
+                    <p>Java</p>
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="SpringBoot-Logo-qu.png" alt="SpringBoot" class="skill-image img-fluid">
+                    <p>SpringBoot</p>
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="mongodb.png" alt="MongoDB" class="skill-image img-fluid">
+                    <p>MongoDB</p>
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="sql.jpg" alt="SQL" class="skill-image img-fluid">
+                    <p>SQL</p>
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="power bi image.png" alt="Power BI" class="skill-image img-fluid">
+                    <p>Power BI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <center>
+   
+    <!-- Projects Section -->
+    <section id="projects" class="py-5" style="color: white;>
+    <div class="container" style="color: black;">
+        <!-- Box for the heading -->
+        <div class="projects-heading bg-light p-4 rounded mb-4 text-center">
+            <h2>My Projects</h2>
+        </div>
+        
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: white;">Plant Disease Identification System - Using Python and CNN </h3>
+                        <ul>
+                            <li>Technologies used: Python, Convolutional Neural Networks (CNN), Image Processing.</li>
+                            <li>Constructed a high-accuracy CNN model using Python for identifying various plant diseases, achieving an impressive 98% accuracy rate on test datasets.</li>
+                            <li>Integrated CNNs with real-time image processing capabilities, enabling the model to detect and classify diseases from images instantly.</li>
+                            <li>Enhanced model performance through data augmentation and tuning hyperparameters to maximize precision and minimize false positives.</li>
+                            <li>Developed a user-friendly interface for farmers and agricultural experts to upload plant images and receive instant disease diagnostics and suggested treatments.</li>
+                        </ul>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color: white;">Quiz Web Application- Using Python and Deep Learning</h3>
+                        <ul>
+                            <li>Technologies used: Spring Boot, Microservices, PostgreSQL, Java, RESTful APIs.</li>
+                            <li>Developed a web-based quiz application using a microservices architecture with Spring Boot, handling backend services efficiently and supporting multiple concurrent users.</li>
+                            <li>Implemented CRUD operations for managing quizzes and questions, ensuring seamless interaction with a PostgreSQL database to store quiz data and user scores.</li>
+                            <li>Designed RESTful APIs for various quiz-related functionalities, including quiz creation, updates, deletions, and score tracking, providing a smooth user experience.</li>
+                            <li>Ensured scalability and maintainability by decoupling services and adhering to microservices patterns, allowing for easy addition of new features and services.</li>
+                           
+                        </ul>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+           
+                <div class="card mb-4 hover-gradient-card">
+                    <div class="card-body" style="color: white;">
+                        <h3 class="card-title">Internship</h3>
+                    <h3>InternPe | Python Developer Intern </h3>
+                        <p>Hands-On Project Experience : Build real-world applications
+                            like Tic-Tac-Toe, Snake Game, and Digital Clock, demonstrating
+                            your Python skills in game development and GUI programming.</p>
+                    </div>
+                </div>
+            </a>
+        </center>
+        
+    </center>
+        
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center"  style="color: black;">
+            <h2 style="color: white;">Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:sathya.tvr.tech@gmail.com">sathya.tvr.tech@gmail.com</a>.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/labirra_cr12/profilecard/?igsh=dTZsd2g5ZzBpc3g3" class="me-3" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sathya-a-9877bb31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="me-3" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/mohamedasick87" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <!-- Phone Icon -->
+                <a href="#" class="me-3" onclick="showPopup()">
+                    <i class="fas fa-phone fa-2x"></i>
+                </a>
+            </div>
+            
+            <!-- Popup for displaying the phone number -->
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <h6 style="color: white;">Contact Number: +91 9345983067</h6>
+                </div>
+            </div>
+            
+            
+                
+                <br>
+               <div style="color: white;">© 2024 All rights reserved by MOHAMED ASICK</div> 
+            </div>
+        </div>
+    </section>
+
+<!--applying dark-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+
+            // Set initial state based on body class
+            if (body.classList.contains('dark-mode')) {
+                themeToggle.textContent = 'Switch to Light Mode';
+            } else {
+                themeToggle.textContent = 'Switch to Dark Mode';
+            }
+
+            themeToggle.addEventListener('click', function () {
+                if (body.classList.contains('light-mode')) {
+                    body.classList.remove('light-mode');
+                    body.classList.add('dark-mode');
+                    themeToggle.textContent = 'Switch to Light Mode';
+                } else {
+                    body.classList.remove('dark-mode');
+                    body.classList.add('light-mode');
+                    themeToggle.textContent = 'Switch to Dark Mode';
+                }
+            });
+        });
+        
+
+                        function showPopup() {
+                    document.getElementById("popup").style.display = "block";
+                }
+
+                function closePopup() {
+                    document.getElementById("popup").style.display = "none";
+                }
+
+
+    </script>
+     <script src="demo.js"></script>
+</body>
+</html>
+
+
+
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const welcomeScreen = document.getElementById('welcome-screen');
+    const welcomeText = document.querySelector('.welcome-message');
+
+    // Split the welcome text into individual characters
+    const welcomeTextContent = welcomeText.textContent;
+    welcomeText.innerHTML = '';
+
+    // Wrap each character in a span for animation
+    [...welcomeTextContent].forEach((letter, index) => {
+        const span = document.createElement('span');
+        span.textContent = letter;
+        welcomeText.appendChild(span);
+
+        // Apply animation delay for each letter
+        span.style.animationDelay = `${index * 0.2}s`;
+    });
+
+    // Wait for the animation to complete, then remove the welcome screen
+    setTimeout(() => {
+        welcomeScreen.style.animation = 'fadeOut 1s forwards';
+    }, 2000); // Keep welcome screen for 2 seconds
+
+    // Show main content after the welcome screen fades out
+    setTimeout(() => {
+        document.getElementById('main-content').style.display = 'block';
+    }, 3000); // Adjust to match the fade-out animation
+});
+
+
+</script>
+
+
